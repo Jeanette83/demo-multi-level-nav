@@ -90,6 +90,7 @@ ul.menu li {
 
      svg {
         width: 1rem;
+        display: block;
      }
 
      svg path {
