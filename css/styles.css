@@ -38,4 +38,5 @@ ul.menu li {
  ul.menu a:hover,
  ul.menu a:active {
     background-color: magenta;
+    border-radius: 5px;
  }
