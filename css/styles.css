@@ -29,6 +29,7 @@ ul.menu a {
 ul.menu li {
     line-height: 40px;
     margin-bottom: 0.5rem;
+    /*allows us to position the submenu absolutely but relative to this element*/
     position: relative;
 }
 
@@ -60,6 +61,7 @@ ul.menu li {
     ul.submenu {
         padding: 0;  /*makes submenu directly underneath*/
         position: absolute;
+        right: 0;
         background-color: #191919;
         border-radius: 0 0 5px 5px;
      }
