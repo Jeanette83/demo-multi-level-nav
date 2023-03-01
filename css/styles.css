@@ -81,7 +81,7 @@ ul.menu li {
      }
     /* Step 4. Add transitions to remove any jenkiness*/
     ul.submenu {
-        transition: all 3sec ease;
+        transition: all 10s ease;
     }
     
  }
