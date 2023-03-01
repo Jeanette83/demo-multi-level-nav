@@ -64,6 +64,8 @@ ul.menu li {
         right: 0;
         background-color: #191919;
         border-radius: 0 0 5px 5px;
+        visibility: hidden;
+        opacity: 0;
      }
 
      ul.menu li {
