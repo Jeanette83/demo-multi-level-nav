@@ -40,3 +40,7 @@ ul.menu li {
     background-color: magenta;
     border-radius: 5px;
  }
+
+ ul.submenu {
+    padding: 0 1rem;
+ }
