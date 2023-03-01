@@ -50,8 +50,11 @@ ul.menu li {
  }
 
  @media screen and (min-width:58rem) {
-    .menu {
+    ul.menu {
         display: flex;
     }
+    ul.submenu {
+        padding: 0;
+     }
     
  }
