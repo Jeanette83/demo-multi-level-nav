@@ -81,6 +81,11 @@ ul.menu li {
 
      li.dropdown a {
         display: flex;
+        gap: 0.5rem;
+     }
+
+     svg {
+        width: 1rem;
      }
 
      /* Add a hover-state that will show the submenu*/
