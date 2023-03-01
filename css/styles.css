@@ -53,8 +53,14 @@ ul.menu li {
     ul.menu {
         display: flex;
     }
+
+     /* Step 2. Position and style the drop-down submenus */
     ul.submenu {
-        padding: 0;
+        padding: 0;  /*makes submenu directly underneath*/
+        position: absolute;
+        background-color: #191919;
      }
+
+    
     
  }
