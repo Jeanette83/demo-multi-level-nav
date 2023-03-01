@@ -65,7 +65,8 @@ ul.menu li {
      }
 
      ul.menu li {
-        flex: 1 0 auto;
+        flex: 1 0 auto;  /* see what happens when you turn this off!*/
+        text-align: center;
      }
 
     
