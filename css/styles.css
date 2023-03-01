@@ -11,5 +11,8 @@ header {
 
 /** Step 1. Style all the menu links for the smaller screen
 /** text styles goes on the anchor tag to overwrite the browser 
-/** BUT LAYOUT AND SPACING GOES ON li
+/** BUT LAYOUT AND SPACING GOES ON li***/
 
+ul.menu {
+    background-color: #191919;
+}
