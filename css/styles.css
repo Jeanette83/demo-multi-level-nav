@@ -22,6 +22,7 @@ ul.menu a {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
+    padding: 0 1rem;
 }
 
 /* Normally the line-height is 1.5. If we make it more, it will vertically align the text within*/
