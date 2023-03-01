@@ -29,6 +29,7 @@ ul.menu a {
 ul.menu li {
     line-height: 40px;
     margin-bottom: 0.5rem;
+    position: relative;
 }
 
 /*But our anchor tag is still tiny and inline. Good luck hitting that on a phone screen*/
