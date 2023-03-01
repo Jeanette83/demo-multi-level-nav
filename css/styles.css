@@ -1,1 +1,15 @@
 /* developer styles go here */
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    max-width: 58rem;
+    margin: 0 auto;
+}
+
+/** Step 1. Style all the menu links for the smaller screen
+/** text styles goes on the anchor tag to overwrite the browser 
+/** BUT LAYOUT AND SPACING GOES ON li
+
