@@ -106,5 +106,13 @@ ul.menu li {
     ul.submenu {
         transition: all 10s ease;
     }
+
+    /* Step 5: add keyboard accesability*/
+    ul.menu li:focus-within > ul,
+    ul.menu li >  ul:focus {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+    }
     
  }
