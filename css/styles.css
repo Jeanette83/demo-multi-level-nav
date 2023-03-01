@@ -21,4 +21,13 @@ ul.menu a {
     color:#f5f5f5;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
 }
+
+/* Normally the line-height is 1.5. If we make it more, it will vertically align the text within*/
+ul.menu li {
+    line-height: 40px;
+}
+
+/*But our anchor tag is still tiny and inline. Good luck hitting that on a phone screen*/
+/*add display: block to ul.menu a */
