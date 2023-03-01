@@ -73,6 +73,11 @@ ul.menu li {
         text-align: center;
      }
 
+     /* Add a hover-state that will show the submenu*/
+     ul.menu li:hover > ul {
+        visibility: visible;
+        opacity: 1;
+     }
     
     
  }
