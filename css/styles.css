@@ -64,6 +64,10 @@ ul.menu li {
         border-radius: 0 0 5px 5px;
      }
 
+     ul.menu li {
+        flex: 1 0 auto;
+     }
+
     
     
  }
