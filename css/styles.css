@@ -22,7 +22,7 @@ ul.menu a {
     text-decoration: none;
     text-transform: uppercase;
     display: block;
-    padding: 0 1rem;
+    padding: 0 1rem; /*by putting the padding here instead of ul.menu li, we keep the area to the left of words clickable for big thumbs*/
 }
 
 /* Normally the line-height is 1.5. If we make it more, it will vertically align the text within*/
@@ -33,3 +33,9 @@ ul.menu li {
 
 /*But our anchor tag is still tiny and inline. Good luck hitting that on a phone screen*/
 /*add display: block to ul.menu a */
+
+/*we add hever state to mobile as well as desktop, bc it shows the user that something is happening*/
+ ul.menu a:hover,
+ ul.menu a:active {
+    background-color: magenta;
+ }
