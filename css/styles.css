@@ -53,6 +53,7 @@ ul.menu li {
  @media screen and (min-width:58rem) {
     ul.menu {
         display: flex;
+        justify-content: space-between;
     }
 
      /* Step 2. Position and style the drop-down submenus */
