@@ -59,6 +59,7 @@ ul.menu li {
         padding: 0;  /*makes submenu directly underneath*/
         position: absolute;
         background-color: #191919;
+        border-radius: 0 0 5px 5px;
      }
 
     
