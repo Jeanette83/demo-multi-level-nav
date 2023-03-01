@@ -53,6 +53,10 @@ ul.menu li {
     text-decoration: none;
  }
 
+ svg {
+    display: none;
+ }
+
  @media screen and (min-width:58rem) {
     ul.menu {
         display: flex;
