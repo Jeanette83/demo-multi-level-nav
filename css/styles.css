@@ -33,6 +33,8 @@ ul.menu li {
     position: relative;
 }
 
+
+
 /*But our anchor tag is still tiny and inline. Good luck hitting that on a phone screen*/
 /*add display: block to ul.menu a */
 
@@ -57,6 +59,8 @@ ul.menu li {
         justify-content: space-between;
     }
 
+    
+
      /* Step 2. Position and style the drop-down submenus */
     ul.submenu {
         padding: 0;  /*makes submenu directly underneath*/
@@ -68,10 +72,15 @@ ul.menu li {
         opacity: 0;
      }
 
+
      ul.menu li {
         flex: 1 0 auto;  /* see what happens when you turn this off!*/
         text-align: center;
         margin-bottom: 0;
+     }
+
+     li.dropdown a {
+        display: flex;
      }
 
      /* Add a hover-state that will show the submenu*/
